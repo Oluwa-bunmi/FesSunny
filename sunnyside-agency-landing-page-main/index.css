@@ -48,40 +48,42 @@ h1 {
   display: flex;
   justify-content: center;
 }
-.gridContainer{
+.gridContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.centeredText{
+.centeredText {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0 6rem;color: hsl(212, 27%, 19%);
-
+  padding: 0 6rem;
+  color: hsl(212, 27%, 19%);
 }
-.centeredText h2{
+.centeredText h2 {
   font-family: "Fraunces", serif;
   font-size: 2rem;
 }
-.centeredText p{
+.centeredText p {
   line-height: 24px;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
-.apple{
+.apple {
   background-image: url(images/desktop/image-graphic-design.jpg);
-  height: 100vh;background-size: cover;
-  background-position: center;display: flex;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
   justify-content: end;
   flex-direction: column;
   text-align: center;
   padding: 0 7rem;
   color: hsl(167, 40%, 24%);
 }
-.orange{
+.orange {
   background-image: url(images/desktop/image-photography.jpg);
   height: 100vh;
-background-size: cover;
+  background-size: cover;
   background-position: center;
   display: flex;
   justify-content: end;
@@ -90,142 +92,70 @@ background-size: cover;
   padding: 0 7rem;
   color: hsl(198, 62%, 26%);
 }
-.paragraph{
+.paragraph {
   padding-top: 1.5rem;
   padding-bottom: 2.5rem;
   line-height: 24px;
   font-size: 18px;
 }
-.sentence{
-  font-family: "Fraunces", serif; 
+.sentence {
+  font-family: "Fraunces", serif;
 }
-.threeColumns{
+.threeColumns {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);}
-  /* .ct{
-    color: grey;
-    text-align: center;
-    padding-top: 8rem;
-    font-family: "Fraunces", serif;
-  }
-  .emily{
-    border-radius: 50%;
-    width: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    height: 50px;
-  }
-  .para{
-    padding: 0 6rem;
-    color: hsl(212, 27%, 19%);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    line-height: 24px;
-    font-size: 20px;
-  }
-  .par{
-    color: hsl(212, 27%, 19%);
-    padding-top: 4rem;
-    font-family: "Fraunces", serif;
-    text-align: center;
-  }
-  h6{
-    text-align: center;
-    color: grey;
-    padding-bottom: 3rem;
-  }
-  .thomas{
-border-radius: 100%;
-    width: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    font-size: 10px;}
-  .th{
-    padding-bottom: 4rem;
-    line-height: 24px;
-  }
-  .tho{
-    text-align: center;
-    padding-bottom: 1rem;
-    font-family: "Fraunces", serif;
-    font-size: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
 
-  }
-  .thomas h6{
-    padding-top: 1rem;
-  } */
-  .threeColumns{
-    display: grid;
-    grid-template-columns: repeat(3 1fr);
-    gap: 2rem;
-  }
-  .threeColumns h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .thirdColumns p{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+.testimonial {
+  text-align: center;
+  padding: 6rem 4rem;
+}
+.threeColumns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.testimonial h2 {
+  margin-bottom: 3rem;
+}
 
-  }
-  .threeColumns img{
-    width: 50px;
-    height: 50px;
-    border-radius: 40%;
-  }
+.testimonial p {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.threeColumns img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 
+.fourColumns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fourColumns img{
+  width: 100%;
+  display: block;
+}
 
+footer {
+  background-color: lightseagreen;
+}
 
+/* .link a {
+  color: hsl(167, 40%, 24%);
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+.media {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+} */
+footer .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-  .fourthColumns{
-    display: grid;
-    grid-template-columns: repeat(4 1fr);
-  }
-  .sweet{
-    float: left;
-    width: 25%;
-    height: 100%;
-    padding-bottom: 4rem;
-  }
-  .last{
-    background-color: lightseagreen;
-  }
-  .sunny{
-    color: hsl(167, 40%, 24%);
-    padding-top: 8rem;
-  }
-  .link a{
-    color: hsl(167, 40%, 24%);display: flex;
-    display: flex;
-    justify-content: center;
-  }
-  .media{
-    display: flex;
-    justify-content: center;
-    padding-top: 4rem;
-  }
-  /* .fourthColumns img{
-    width: 50%;
-  } */
-  footer .logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;}
